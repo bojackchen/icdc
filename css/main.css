@@ -86,3 +86,7 @@ dt {
 #content {
     min-height: 1000px;
 }
+
+.media-object {
+    width: 60px;
+}
