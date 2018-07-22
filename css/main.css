@@ -1,0 +1,88 @@
+body {
+    font: 400 15px Lato, "Microsoft YaHei UI Light", sans-serif;
+    line-height: 1.4;
+    letter-spacing: 0.4px;
+    text-align: justify;
+}
+
+h1, h2, h3, h4 {
+    color: #003974;
+    margin-top: 25px;
+    margin-bottom: 5px;
+    font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
+    font-weight: bold;
+}
+
+h1, h2 {
+    font-variant: small-caps;
+    letter-spacing: 2px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
+
+mark {
+    padding: 0px;
+    background-color: #FFF143;
+}
+
+footer {
+    background-color: #A78337;
+    color: #FFF;
+}
+
+footer span {
+    font-size: 20px;
+    margin-bottom: 5px;
+    color: #FFF;
+}
+
+footer p {
+    font-size: 14px;
+}
+
+footer img {
+    width: 100%;
+    height: auto;
+    max-height: 50px;
+}
+
+paperanchor {
+    color: #003974;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+paperaward {
+    color: #A78337;
+    font-weight: bold;
+}
+
+dt {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.well {
+    padding: 10px !important;
+}
+
+.small-thumbnail {
+    width: 126px !important;  // 180 px x 0.7
+    height: auto;
+}
+
+.large-thumbnail {
+    max-width: 180px;
+    height: auto;
+}
+
+.list-group a {
+    text-decoration: none;
+}
+
+#content {
+    min-height: 1000px;
+}
