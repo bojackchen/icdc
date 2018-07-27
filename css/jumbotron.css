@@ -1,5 +1,5 @@
 .jumbotron {
-    padding: 10px 0px;
+    padding: 0px 0px;
     margin: 0px 0px;
     font-family: Montserrat, "Microsoft YaHei UI Light", sans-serif;
 }
@@ -7,5 +7,4 @@
 .jumbotron img {
     width: 100%;
     height: auto;
-    max-width: 950px;
 }
