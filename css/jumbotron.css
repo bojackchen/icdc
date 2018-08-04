@@ -7,4 +7,6 @@
 .jumbotron img {
     width: 100%;
     height: auto;
+    max-width: 1024px;
+    padding: 4px 0px;
 }
