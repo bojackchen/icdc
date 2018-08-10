@@ -82,6 +82,10 @@ dt {
     text-decoration: none;
 }
 
+.nav-pills {
+    margin-bottom: 20px !important;
+}
+
 #content {
     min-height: 1000px;
 }
