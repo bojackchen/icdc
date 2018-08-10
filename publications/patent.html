@@ -28,7 +28,8 @@
   <script src="../js/main.js"></script>
   <script>$(function() {
     $("#navigation").load("../include/navbar.html");
-    $("#patent").load("jabref-export/jabref-patent.html")
+    $("#mok").load("patent/patent-mok.html");
+    $("#yue").load("patent/patent-yue.html");
   });</script>
 
 </head>
@@ -65,7 +66,18 @@
       <div class="page-header">
         <h1>Patents</h1>
       </div>
-      <div id="patent"></div>
+      <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="pill" href="#mok">Prof. MOK</a></li>
+        <li><a data-toggle="pill" href="#yue">Prof. YUE</a></li>
+      </ul>
+      <div class="tab-content">
+        <!-- professor mok's conference publication list -->
+        <div id="mok" class="tab-pane fade in active">
+        </div>
+        <!-- professor yue's conference publication list -->
+        <div id="yue" class="tab-pane fade">
+        </div>
+      </div>
 
       <p class="text-muted text-right" id="lastupdate"></p>
     </div>

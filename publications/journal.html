@@ -31,7 +31,8 @@
   <script src="../js/search.js"></script>
   <script>$(function() {
     $("#navigation").load("../include/navbar.html");
-    $("#journal").load("jabref-export/jabref-journal.html")
+    $("#mok").load("journal/journal-mok.html");
+    $("#yue").load("journal/journal-yue.html");
   });</script>
 
 </head>
@@ -76,7 +77,18 @@
           <input type="checkbox" name="opt[]" value="separateWordSearch" checked> separate word search
         </div>
       </div>
-      <div class="jrnlcnf" id="journal"></div>
+      <ul class="nav nav-pills">
+        <li class="active"><a data-toggle="pill" href="#mok">Prof. MOK</a></li>
+        <li><a data-toggle="pill" href="#yue">Prof. YUE</a></li>
+      </ul>
+      <div class="tab-content">
+        <!-- professor mok's journal publication list -->
+        <div id="mok" class="tab-pane fade in active">
+        </div>
+        <!-- professor yue's journal publication list -->
+        <div id="yue" class="tab-pane fade">
+        </div>
+      </div>
 
       <p class="text-muted text-right" id="lastupdate"></p>
     </div>
