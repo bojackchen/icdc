@@ -61,8 +61,7 @@ paperaward {
 }
 
 dt {
-    font-size: 18px;
-    margin-bottom: 10px;
+    text-align: left !important;
 }
 
 .well {
@@ -70,7 +69,7 @@ dt {
 }
 
 .small-thumbnail {
-    width: 126px !important;  // 180 px x 0.7
+    width: 126px !important;  /* 180 px x 0.7 */
     height: auto;
 }
 

@@ -8,7 +8,7 @@
     border-radius: 5px;
 }
 
-.nav a, .navbar-brand {
+.navbar-nav a, .navbar-brand {
     color: #FFF !important;
     padding-left: 10px !important;
     padding-right: 10px !important;
@@ -18,17 +18,17 @@
     display: block;
 }
 
-.nav li.active a {
+.navbar-nav li.active a {
     background-color: #FFF !important;
     color: #A78337 !important;
 }
 
-.nav li.active .dropdown-menu a {
+.navbar-nav li.active .dropdown-menu a {
     background-color: #A78337 !important;
     color: #FFF !important;
 }
 
-.nav a:hover ,.nav li .dropdown-menu a:hover {
+.navbar-nav a:hover ,.navbar-nav li .dropdown-menu a:hover {
     color: #A78337 !important;
     background-color: #FFF !important;
 }
