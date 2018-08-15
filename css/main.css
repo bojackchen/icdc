@@ -31,6 +31,7 @@ mark {
 footer {
     background-color: #A78337;
     color: #FFF;
+    padding-bottom: 4px;
 }
 
 footer span {
