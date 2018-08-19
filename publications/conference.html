@@ -31,7 +31,7 @@
   <script src="../js/search.js"></script>
   <script>$(function() {
     $("#navigation").load("../include/navbar.html");
-    $(".jrnlcnf").load("../conference/conference.html");
+    $("#conference").load("conference/conference.html");
   });</script>
 
 </head>
@@ -76,7 +76,7 @@
           <input type="checkbox" name="opt[]" value="separateWordSearch" checked> separate word search
         </div>
       </div>
-      <div class="jrnlcnf">
+      <div class="jrnlcnf" id="conference">
       </div>
 
       <p class="text-muted text-right" id="lastupdate"></p>
