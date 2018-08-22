@@ -10,8 +10,6 @@
 
 .navbar-nav a, .navbar-brand {
     color: #FFF !important;
-    padding-left: 10px !important;
-    padding-right: 10px !important;
 }
 
 .dropdown:hover .dropdown-menu {
@@ -26,6 +24,10 @@
 .navbar-nav li.active .dropdown-menu a {
     background-color: #A78337 !important;
     color: #FFF !important;
+}
+
+.dropdown-menu a {
+    padding: 5px 15px !important;
 }
 
 .navbar-nav a:hover ,.navbar-nav li .dropdown-menu a:hover {
